@@ -14,7 +14,6 @@ body{
 .content-inline{
 	display: inline;
 }
-
-.banner-img{
-	float: left;
+.spotify-input-groups{
+	margin: 18px;
 }
