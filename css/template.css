@@ -1,0 +1,20 @@
+body{
+	background-color: #5AAC56;
+	margin: 0px;
+	padding: 0px;
+}
+
+.top-bar-section{
+	 background-color: #156711;
+	 margin:0px;
+	 padding:21px;
+	 color: #8DCF8A;
+}
+
+.content-inline{
+	display: inline;
+}
+
+.banner-img{
+	float: left;
+}
