@@ -1,0 +1,13 @@
+{
+	"name":"SpotifyBox",
+	"description":"A Spotify Client App for Firefox Device",
+	"launch_path":"/index.html",
+	"icons":{
+		"128":"/icons.png"
+	},
+	"developer":{
+		"name":"Annim Banerjee",
+		"url":"http://www.annimbanerjee.in"
+	},
+	"default_locale":"en"
+}
