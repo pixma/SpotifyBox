@@ -1,11 +1,7 @@
 {
-	"name":"SpotifyBox",
-	"description":"A Spotify Client App for Firefox Device",
+	"name":"PlayBox",
+	"description":"An app for Spotifym Client App for Firefox Device.",
 	"launch_path":"/index.html",
-	"icons":{
-		"60":"/icons_60.png",
-		"128":"/icons.png"
-	},
 	"developer":{
 		"name":"Annim Banerjee",
 		"url":"http://www.annimbanerjee.in"

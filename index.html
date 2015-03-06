@@ -6,47 +6,47 @@
 	<title>
 		SpotifyBox | Your Spotify Client for Firefox Device
 	</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.css">
 	<link rel="stylesheet" type="text/css" href="css/template.css">
 	<link rel="stylesheet" href="css/fira.css">
 </head>
 <body>
+	<div data-role="page"  data-theme="b" data-content-theme="b">
 
-	<div class="top-bar-section">
-		<center >			
-			<h3 class="content-inline">
-				SpotifyBox
-			</h3>
-		</center>
-	</div>
-	<br>
-	<center>
-		<img src="banner.png" width="60px" height="60px"class="content-inline banner-img">
-	</center>
-	<br>
-	<div class="row">
-		<div class="col-sm-12">
-			<div class="spotify-input-groups">
-				<input type="text" class="form-control" id="username">
-				<br>
-				<input type="text" class="form-control" id="password">
-				<br>
+		<div data-role="header">
+			<h1>PlayBox</h1>
+		</div><!-- /header -->
+		<div data-role="content">
+			<p>
 				<center>
-					<button type="button" class="btn btn-success btn-lg btn-block" id="spotify-loginButton">Log In</button>
+				<img src="lib/listen-black.png" height="60px" class="content-inline banner-img">
 				</center>
-				
-			</div>
-		</div>
+			</p>
+			<p>
+				<div class="ui-field-contain">
+					<input type="text" class="form-control" id="username" placeholder="Username">
+					<input type="text" class="form-control" id="password" placeholder="Password">
+					<br>
+					<center>
+						<div data-role="controlgroup">
+							<img src="lib/log_in-mobile.png" height="12%" width="100%" class="content-inline banner-img" id="login-button">
+						</div>
+					</center>
+					<br>
+					<br>
+					<center>
+						<small>
+							&copy; 2015
+						</small>
+					</center>										
+				</div>
+			</p>			
+		</div><!-- /content -->		
 	</div>
-
-	<footer>
-		<center>
-			Developer and Designed By | Annim Banerjee
-		</center>
-	</footer>
 
 	<script type="text/javascript" defer src="js/jquery-1.11.2.min.js" ></script>
-	<script type="text/javascript" defer src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" defer src="js/jquery.mobile-1.4.5.min.js"></script>
 	<script type="text/javascript" defer src="js/application.js"></script>
 </body>
 

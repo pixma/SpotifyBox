@@ -1,5 +1,4 @@
 body{
-	background-color: #5AAC56;
 	margin: 0px;
 	padding: 0px;
 }
@@ -16,4 +15,24 @@ body{
 }
 .spotify-input-groups{
 	margin: 18px;
+}
+
+input[type=text]::-webkit-input-placeholder {
+   text-align: center;
+   
+}
+
+input[type=text]:-moz-placeholder { /* Firefox 18- */
+   text-align: center;
+     
+}
+
+input[type=text]::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+   
+}
+
+input[type=text]:-ms-input-placeholder {  
+   text-align: center; 
+   
 }
